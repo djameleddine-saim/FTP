@@ -1,3 +1,5 @@
+#!/bin/bash
+
 export IFS=","
 cat /home/djamel/shell.exe/JOB9/Shell_Userlist.csv | while read Id Prenom Nom Mdp Role
 do
